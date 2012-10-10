@@ -15,7 +15,7 @@ public class SimpleViewPager extends Activity {
 		MyPagerAdapter adapter = new MyPagerAdapter(this);
 		ViewPager myPager = (ViewPager) findViewById(R.id.pager);
 		myPager.setAdapter(adapter);
-		myPager.setCurrentItem(0);
+		myPager.setCurrentItem(0); 
 	}
 
 }
